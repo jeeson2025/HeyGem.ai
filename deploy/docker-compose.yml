@@ -58,3 +58,5 @@ services:
     command: python /code/app_local.py
     networks:
       - ai_network
+    docker:
+      -compose up -d
